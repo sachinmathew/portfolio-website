@@ -1,0 +1,35 @@
+header {
+    background-color: #1e1e2f;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: anchor-center;
+    top: 0;
+    position: fixed;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.title {
+    margin: 0;
+    color: #00bcd4;
+    font-size: large;
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navItem {
+    margin-left: 20px;
+}
+
+.navLink {
+    color: #4caf50;
+    text-decoration: none;
+}
