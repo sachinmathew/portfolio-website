@@ -1,8 +1,8 @@
 navItems:
   - href: '#about'
     label: 'About'
-  - href: '#carreer'
-    label: 'Carreer'
+  - href: '#career'
+    label: 'Career'
   - href: '#blog'
     label: 'Blog'
   - href: '#resume'
