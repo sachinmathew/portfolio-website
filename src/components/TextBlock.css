@@ -1,0 +1,25 @@
+.maintext{
+    position: fixed;
+    top:30%;
+    right: 0;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.mainsubtext{
+    position: fixed;
+    top:50%;
+    right: 0;
+    width: 50%;
+    display: flex;
+    justify-content: left;
+}
+
+.lastupdated{
+    position: fixed;
+    top:70%;
+    right: 0;
+    width: 50%;
+    display: flex;
+    justify-content: left;
+}
