@@ -1,0 +1,29 @@
+.hero {
+    height: 100vh; /* Full-screen height */
+    background-color: #fff; /* fallback color while image loads */
+    background-image: url('/assets/hero.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #fff; /* Default text color */
+    width: 150%;
+  }
+  
+  .hero-content {
+    max-width: 100%; /* Limit the width of the content */
+    padding: 0 2%; /* Add some padding for smaller screens */
+    height: 10%;
+  }
+  
+  .hero-title-wrapper {
+    padding: 1rem 2rem; /* Add padding around the title */
+    border-radius: 8px; /* Rounded corners */
+    display: inline-block; /* Ensure the background wraps tightly around the text */
+  }
+  
+  .hero-title {
+    font-size: 2rem; /* Large title font size */
+    font-weight: bold;
+    font-style: 'comic sans ms';
+    color: #1e1e2f; /* Dark text color for contrast */
+  }

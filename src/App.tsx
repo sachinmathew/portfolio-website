@@ -1,10 +1,14 @@
-import './App.css'
-import Header from './components/Header'
+import React from 'react';
+import Header from './components/Header';
+import Hero from './components/hero';
+import Projects from './components/Projects';
 
-function App() {
+const App: React.FC = () => {
   return (
-      <Header />
-  )
-}
+    <>
+      <Hero />
+    </>
+  );
+};
 
-export default App
+export default App;
